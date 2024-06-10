@@ -1,0 +1,135 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 1em;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #intro {
+    text-align: center;
+    padding: 2em 0;
+    background: url('cover.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .cover-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .intro-content {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: inline-block;
+    padding: 1em 2em;
+    margin-top: -200px;
+  }
+  
+  .intro-content h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+  }
+  
+  .intro-content p {
+    font-size: 1.5em;
+  }
+  
+  .intro-content .btn {
+    background: #007BFF;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    display: inline-block;
+  }
+  
+  #features, #about, #contact {
+    padding: 2em 1em;
+    text-align: center;
+  }
+  
+  #features h2, #about h2, #contact h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .feature {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    vertical-align: top;
+  }
+  
+  .feature img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .feature h3 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+  }
+  
+  .feature p {
+    font-size: 1em;
+  }
+  
+  #about .team {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+  }
+  
+  #about .team-member {
+    width: 45%;
+  }
+  
+  #about .team-member h3 {
+    margin: 0.5em 0;
+  }
+  
+  #about .team-member ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #about .team-member ul li {
+    display: inline;
+    margin: 0 0.5em;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
