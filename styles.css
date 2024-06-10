@@ -3,11 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: powderblue;
   }
   
   header {
-    background: #333;
-    color: white;
+    background: green;
+    color: purple;
     padding: 1em 0;
     text-align: center;
   }
@@ -31,13 +32,14 @@ body {
   #intro {
     text-align: center;
     padding: 2em 0;
-    background: url('cover.jpg') no-repeat center center;
+    background: url('css/queen.jpeg') no-repeat center center;
     background-size: cover;
   }
   
   .cover-image img {
-    width: 100%;
+    width: 75%;
     height: auto;
+    opacity: 0.3;
   }
   
   .intro-content {
@@ -46,10 +48,13 @@ body {
     display: inline-block;
     padding: 1em 2em;
     margin-top: -200px;
+    opacity: 0.5;
+    position: relative;
   }
+
   
   .intro-content h1 {
-    font-size: 3em;
+    font-size: 10em;
     margin: 0.5em 0;
   }
   
@@ -58,8 +63,8 @@ body {
   }
   
   .intro-content .btn {
-    background: #007BFF;
-    color: white;
+    background: #FFFFFF;
+    color: pink;
     padding: 0.5em 1em;
     text-decoration: none;
     border-radius: 5px;
@@ -102,14 +107,17 @@ body {
     display: flex;
     justify-content: space-around;
     margin-top: 2em;
+    position: centre;
   }
   
   #about .team-member {
     width: 45%;
+    position: centre;
   }
   
-  #about .team-member h3 {
+  #about .Prisca Dev Team {
     margin: 0.5em 0;
+    
   }
   
   #about .team-member ul {
