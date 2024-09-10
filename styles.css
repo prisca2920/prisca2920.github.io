@@ -46,7 +46,7 @@ header {
 }
 
 #hero {
-  background-image: url('cover-image.jpg');
+  background-image: url('css/pear.png');
   background-size: cover;
   color: white;
   text-align: center;
@@ -117,27 +117,6 @@ header {
   border-radius: 10px;
 }
 
-}
-
-#about {
-  background-color: #f4f4f4;
-  padding: 50px 20px;
-  text-align: center;
-}
-
-.team {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-}
-
-.member {
-  width: 30%;
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
 
 #video {
   padding: 50px 20px;
@@ -149,6 +128,47 @@ video {
   max-width: 700px;
   border-radius: 10px;
 }
+
+.about-developer-section {
+  padding: 50px 0;
+  background-color: #f8f9fa; /* Optional background */
+}
+
+.developer-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px; /* Space between description and profile */
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.developer-description {
+  flex: 1;
+  text-align: left;
+}
+
+.developer-profile {
+  flex: 0 0 300px; /* Fixed width for the profile section */
+  text-align: center;
+}
+
+.developer-profile img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #28a745;
+  margin: 0 10px;
+}
+
+.social-links a:hover {
+  color: #155724;
+}
+
 
 #cta {
   background-color: #4CAF50;
