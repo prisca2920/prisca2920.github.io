@@ -1,143 +1,165 @@
-/* styles.css */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: powderblue;
-  }
-  
-  header {
-    background: green;
-    color: purple;
-    padding: 1em 0;
-    text-align: center;
-  }
-  
-  header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header nav ul li {
-    display: inline;
-    margin: 0 1em;
-  }
-  
-  header nav ul li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  #intro {
-    text-align: center;
-    padding: 2em 0;
-    background: url('css/queen.jpeg') no-repeat center center;
-    background-size: cover;
-  }
-  
-  .cover-image img {
-    width: 75%;
-    height: auto;
-    opacity: 0.3;
-  }
-  
-  .intro-content {
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    display: inline-block;
-    padding: 1em 2em;
-    margin-top: -200px;
-    opacity: 0.5;
-    position: relative;
-  }
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  
-  .intro-content h1 {
-    font-size: 10em;
-    margin: 0.5em 0;
-  }
-  
-  .intro-content p {
-    font-size: 1.5em;
-  }
-  
-  .intro-content .btn {
-    background: #FFFFFF;
-    color: pink;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 1em;
-    display: inline-block;
-  }
-  
-  #features, #about, #contact {
-    padding: 2em 1em;
-    text-align: center;
-  }
-  
-  #features h2, #about h2, #contact h2 {
-    font-size: 2em;
-    margin-bottom: 1em;
-  }
-  
-  .feature {
-    display: inline-block;
-    width: 30%;
-    margin: 1%;
-    vertical-align: top;
-  }
-  
-  .feature img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .feature h3 {
-    font-size: 1.5em;
-    margin: 0.5em 0;
-  }
-  
-  .feature p {
-    font-size: 1em;
-  }
-  
-  #about .team {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 2em;
-    position: centre;
-  }
-  
-  #about .team-member {
-    width: 45%;
-    position: centre;
-  }
-  
-  #about .Prisca Dev Team {
-    margin: 0.5em 0;
-    
-  }
-  
-  #about .team-member ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  #about .team-member ul li {
-    display: inline;
-    margin: 0 0.5em;
-  }
-  
-  footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-  }
-  
-  footer p {
-    margin: 0;
-  }
-  
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #618d61;
+  color: rgb(61, 57, 57);
+  padding: 10px;
+}
+.logo h1 {
+  font-size: 4rem; /* Increase the size of the title */
+  text-align: center;
+  margin: 0;
+}
+
+.logo {
+  display: flex;
+  justify-content: center; /* Centers the title horizontally */
+  align-items: center;
+  margin-bottom: 20px; /* Adds space between title and navigation */
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center; /* Center the navigation links */
+  list-style: none;
+  margin-top: 10px;
+}
+
+.nav-links li {
+  margin: 0 15px; /* Adjust spacing between links */
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem; /* Slightly increase link font size */
+}
+
+#hero {
+  background-image: url('cover-image.jpg');
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 150px 20px;
+}
+
+.hero-content {
+  margin-top: 50px;
+}
+
+.cover-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.cta-button {
+  background-color: #FFA500;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+}
+#about-new {
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+  text-align: center;
+  margin-bottom: 30px; /* Space between this section and the next */
+}
+
+#about-new h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#about-new p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#features {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.feature-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.feature {
+  width: 80%; /* Adjust width as needed */
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+}
+
+#about {
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.member {
+  width: 30%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#video {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+video {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 10px;
+}
+
+#cta {
+  background-color: #4CAF50;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
